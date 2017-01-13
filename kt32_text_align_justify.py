@@ -1,5 +1,4 @@
 def line_justified(line, width):
-    print(line)
     n_of_words = len(line)
     n_of_spaces = n_of_words and n_of_words - 1 or 0
     total_space = width - len(''.join(line))
@@ -10,18 +9,15 @@ def line_justified(line, width):
     	for i in range(add_space):
             el = i % n_of_spaces
             spaces[el] += ' '
-    print(spaces)
     ret = ''
     for i, word in enumerate(line):
         ret += word
         if i < len(spaces):
             ret += spaces[i]
-    print(ret)
     return ret
     
 
 def justify(text, width):
-    print(text, width)
     if not text:
         return 
     ret = []
@@ -35,7 +31,5 @@ def justify(text, width):
             cur_line = [word, ]
     if line_justified(cur_line, width) != ret[-1]:
         ret.append(' '.join(cur_line))
-    
-    print(ret)
     
     return '\n'.join(ret)
