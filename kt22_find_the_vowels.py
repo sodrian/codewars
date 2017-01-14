@@ -15,9 +15,6 @@ So given a string "super", we should return a list of [2, 4].
 **NOTE: Vowels in this context refers to English Language Vowels - a e i o u y **
 
 **NOTE: this is indexed from [1..n]** (not zero indexed!)
-
-
-
 """
 
 def vowel_indices(word):
