@@ -60,7 +60,6 @@ def format_line(line):
     
     for ptrn in PTRNS:
         line = re.sub(ptrn, '', line)
-    
     line = re.sub(SPACES_PTRN, ' ', line).strip()
     
     return 'Phone => {0}, Name => {1}, Address => {2}'.format(phone, name, line)
