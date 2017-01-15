@@ -48,8 +48,8 @@ REPLACES = [
     ('s', 'z')]
 PUNCTS = ".,'"
 
+
 def n00bify(text):
-    print(text)
     orig_text = str(text)
     
     for k, v in REPLACES:
@@ -61,8 +61,6 @@ def n00bify(text):
     if text[0].lower() == 'w':
         text = 'LOL ' + text
 	
-    print(text, len(text))
-    
     if len(text.replace('!','')) >= 32:
         text = 'OMG ' + text
   	
