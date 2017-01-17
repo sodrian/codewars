@@ -36,8 +36,6 @@ And some invalid ones:
 import re
 DIGIT_PTRN = r'^[-]?[\d]+[\.]?[\d]*$'
 
-
 def is_valid_coordinates(coordinates):
-    cs = list(map(float, [c if re.match(DIGIT_PTRN, c.strip()) else 1000 for c in coordinates.split(',')]))
-    print(coordinates, cs)
+    cs = list(map(float, [c if re.match(DIGIT_PTRN, c.strip()) else 1000 for c in coordinates.split(',') if len(coordinates.split(',')) == 2]))
     return len(cs) == 2 and -90 <= cs[0] <= 90 and -180 <= cs[1] <= 180
