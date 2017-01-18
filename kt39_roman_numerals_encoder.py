@@ -66,9 +66,6 @@ def solution(n):
     ret = ''
     for char, num in D:
         res, n = divmod(n, num)
-        if not res and not n:
-            break
-        elif res:
+        if res:
             ret += char * res
-    
     return ret
