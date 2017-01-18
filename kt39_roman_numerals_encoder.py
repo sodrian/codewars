@@ -64,15 +64,11 @@ D = [
 
 def solution(n):
     ret = ''
-    i = 0
-    
-    while True:
-        res, n = divmod(n, D[i][1])
+    for char, num in D:
+        res, n = divmod(n, num)
         if not res and not n:
             break
         elif res:
-            ret += D[i][0] * res
-        elif not res:
-            i += 1
+            ret += char * res
     
     return ret
