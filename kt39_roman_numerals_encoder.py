@@ -67,7 +67,6 @@ def solution(n):
     i = 0
     
     while True:
-        print(n, ret)
         res, n = divmod(n, D[i][1])
         if not res and not n:
             break
