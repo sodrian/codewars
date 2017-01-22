@@ -62,16 +62,12 @@ def sub_perm(iter_n):
     for el in permutations(''.join(sorted(iter_n))):
         el = ''.join(el)
         if el > iter_n:
-            # print('print 2', el, iter_n)
             return int(el)
     else:
         return -1
-  
 
 def next_bigger(n):
-    #print('print 0', n)
     n = str(n)
-    
     if len(n) == 1:
         return -1
     elif len(n) == 2:
@@ -79,9 +75,7 @@ def next_bigger(n):
     elif len(n) > 2:
         for i in range(2, len(n)+1):
             iter_n = n[-i:]
-            #print('print 1', i, len(n), iter_n)
             el = sub_perm(iter_n)
-            #print('print 3', el)
             if el > 0:
                 return int('{0}{1}'.format(n[:-i], el))
     return -1
