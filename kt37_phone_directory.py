@@ -40,6 +40,9 @@ return: `"Error => Not found: nb"`
 You can see other examples in the test cases.
 
 JavaScript random tests completed by @matt c
+
+# Note
+Codewars stdout doesn't print part of a string when between `<` and `>`
 """
 
 import re
