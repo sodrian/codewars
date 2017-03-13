@@ -4,6 +4,8 @@ Description:
 
 Write a program that will calculate the number of trailing zeros in a factorial of a given number.
 
+http://mathworld.wolfram.com/Factorial.html 
+
 N! = 1 \* 2 \* 3 \* 4 ... N
 
 
