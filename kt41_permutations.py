@@ -30,7 +30,7 @@ permutations "aabb" `shouldBe` ["aabb","abab","abba","baab","baba","bbaa"]
 The order of the permutations doesn't matter.
 """
 
-from itertools import permutations as perm
+from itertools import permutations as permuts
 
 def permutations(string):
-    return {''.join(el) for el in perm(string)}
+    return {''.join(el) for el in permuts(string)}
