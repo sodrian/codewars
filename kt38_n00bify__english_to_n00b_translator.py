@@ -11,10 +11,10 @@ The following rules should be observed:
 - Any remaining double o's should be replaced with zeros (E.g. noob = n00b)
 - "be", "are", "you", "please", "people", "really", "have", and "know" should be changed to "b", "r", "u", "plz", "ppl", "rly", "haz", and "no" respectively (even if they are only part of the word)
 - The letter "s" should always be replaced by a "z", maintaining case
-- "LOL" must be added to the beginning of any input string starting with a "w"
+- "LOL" must be added to the beginning of any input string starting with a "w" or "W"
 - "OMG" must be added to the beginning (after LOL, if applicable,) of a string 32 characters<sup>1</sup> or longer
 - All evenly numbered words<sup>2</sup> must be in ALL CAPS (<b>Example:</b> ```Cake is very delicious.``` becomes ```Cake IZ very DELICIOUZ```)
-- If the input string starts with "h", the entire output string should be in ALL CAPS
+- If the input string starts with "h" or "H", the entire output string should be in ALL CAPS
 - Periods ( . ), commas ( , ), and apostrophes ( ' ) are to be removed
 - <sup>3</sup>A question mark ( ? ) should have more question marks added to it, equal to the number of words<sup>2</sup> in the sentence (<b>Example:</b> ```Are you a foo?``` has 4 words, so it would be converted to ```r U a F00????```)
 - <sup>3</sup>Similarly, exclamation points ( ! ) should be replaced by a series of alternating exclamation points and the number 1, equal to the number of words<sup>2</sup> in the sentence (<b>Example:</b> ```You are a foo!``` becomes ```u R a F00!1!1```)
