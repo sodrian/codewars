@@ -10,6 +10,7 @@ The following rules should be observed:
 - Likewise, "for" and "fore" should be replaced by the number 4
 - Any remaining double o's should be replaced with zeros (E.g. noob = n00b)
 - "be", "are", "you", "please", "people", "really", "have", and "know" should be changed to "b", "r", "u", "plz", "ppl", "rly", "haz", and "no" respectively (even if they are only part of the word)
+- When replacing words, always maintain case of the first letter unless another rule forces the word to all caps.
 - The letter "s" should always be replaced by a "z", maintaining case
 - "LOL" must be added to the beginning of any input string starting with a "w" or "W"
 - "OMG" must be added to the beginning (after LOL, if applicable,) of a string 32 characters<sup>1</sup> or longer
