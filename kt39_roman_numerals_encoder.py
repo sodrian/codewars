@@ -43,6 +43,9 @@ solution(1000) // should return "M"
 ```elixir
 solution(1000) # should return "M"
 ```
+```r
+solution(1000) # should return "M"
+```
 
 Help:
 ```
