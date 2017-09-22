@@ -2,11 +2,9 @@
 URL: https://www.codewars.com/kata/ascii-hex-converter
 Description:
 
-Write a module Converter that can take ASCII text and convert it to
-hexadecimal. The class should also be able to take hexadecimal and
-convert it to ASCII text.
+Write a module Converter that can take ASCII text and convert it to hexadecimal. The class should also be able to take hexadecimal and convert it to ASCII text.
 
-Example
+### Example
 
 ```ruby
 Converter.to_hex("Look mom, no hands")
