@@ -46,6 +46,12 @@ solution(1000) # should return "M"
 ```r
 solution(1000) # should return "M"
 ```
+```c
+solution(1000); // => "M"
+```
+```nim
+solution(1000) # should return "M"
+```
 
 Help:
 ```
